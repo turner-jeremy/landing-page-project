@@ -16,9 +16,8 @@ body {
     margin: 0;
 }
 
-.container-top,
-.footer {
-    background-color: #1F2937;
+.container-top {
+    background-color: #c1e7e6;
     min-width: 400px;
 }
 
@@ -29,7 +28,7 @@ body {
     margin: 0 auto;
 }
 .header-logo {
-    color: #F9FAF8;
+    color: #0b1f32;
     font-size: 24px;
     font-weight: 800;
 }
@@ -43,7 +42,7 @@ body {
 .header-links a {
     font-weight: 100;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #0b1f32;
 }
 
 .hero-section {
@@ -65,19 +64,22 @@ body {
 .hero-main-text {
     font-size: 44px;
     font-weight: 600;
-    color: #F9FAF8;
+    color: #0b1f32;
     margin-bottom: 12px;
 }
 
+strong {
+    color: #e3414e;
+}
 .hero-secondary-text,
 .header-links {
-    color: #E5E7EB;
+    color: #651598;
     font-size: 18px;
     line-height: 24px;
 }
 
 .signup-button {
-    background-color: #3882F6;
+    background-color: #e3414e;
     padding: 8px 32px;
     margin: 20px 0;
     text-decoration: none;
@@ -104,12 +106,13 @@ ul.no-bullets {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fefefe;
 
 }
 .info-header {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: #651598;
     margin: 50px;
 }
 
@@ -133,11 +136,16 @@ p.image-caption {
     margin-top: 6px;
     font-weight: 100;
     font-size: 18px;
-    color: #424b58;
+    color: #0b1f32;
 }
 
+u {
+
+    text-decoration-color: #4df0ff;
+    
+}
 .info-image {
-    border-color: #3882F6;
+    border-color: #651598;
     border-width: 4px;
     border-radius: 16px;
     border-style: solid;
@@ -145,7 +153,7 @@ p.image-caption {
 }
 
 .quote-section {
-    background-color: #E5E7EB;
+    background-color: #651598;
     padding: 80px 23%;
     min-width: 412px;
     display: flex;
@@ -157,7 +165,7 @@ p.image-caption {
     font-size: 36px;
     font-style: italic;
     /* font-weight: thin; */
-    color: #1F2937;
+    color: #c1e7e6;
     margin-bottom: 8px;
     max-width: 1000px;
     /* width: 60%; */
@@ -169,13 +177,14 @@ p.image-caption {
     font-size: 24px;
     align-self: self-end;
     max-width: 900px;
+    color: #c1e7e6;
 }
 
 .action-section {
-    background-color: white;
+    background-color: #fefefe;
 }
 .call-to-action {
-    background-color: #3882F6;
+    background-color: #4df0ff;
     width: 80%;
     max-width: 1000px;
     margin: 80px auto;
@@ -184,7 +193,7 @@ p.image-caption {
     justify-content: center;
     align-content: center;
     align-items: center;
-    color: white;
+    color: #0b1f32;
     gap: 20%;
     border-radius: 8px;
 }
@@ -196,7 +205,7 @@ p.image-caption {
 }
 
 .call-to-action .signup-button {
-    border-color: white;
+    border-color: #fefefe;
     border-style: solid;
     border-width: 2px;
 }
@@ -205,16 +214,16 @@ p.image-caption {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 .footer-text {
-    color: white;
     padding: 40px 0;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #0b1f32;
 }
 
 a {
     text-decoration: none;  
-    color: white; 
+    color: #fefefe; 
 }
